@@ -10,10 +10,10 @@ namespace ConfigConvertor
     {
         static void Main(string[] args)
         {
-            // az account set --subscription a909e367-fe60-4605-b7b0-b0286868316c
-            // az functionapp config appsettings list --name uecstream-uks-submission-func --resource-group uec-stream-rg
-            // az functionapp config appsettings list --name ueccontrol-uks-submission-func --resource-group uec-control-rg
-            // az webapp config connection-string list --name ueccontrol-uks-submission-func --resource-group uec-control-rg
+            // az account set --subscription
+            // az functionapp config appsettings list --name  --resource-group 
+            // az functionapp config appsettings list --name  --resource-group 
+            // az webapp config connection-string list --name  --resource-group 
 
             var json = File.ReadAllText(@"C:\shared\config.txt");
 
